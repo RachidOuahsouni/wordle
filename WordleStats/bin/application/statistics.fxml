@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" spacing="20" alignment="CENTER" fx:controller="application.StatisticsController">
+    
+
+    <HBox alignment="CENTER" spacing="20">
+        <!-- Graphique à barres -->
+        <BarChart fx:id="barChart" prefWidth="400" prefHeight="400">
+            <xAxis>
+                <CategoryAxis label="Joueurs"/>
+            </xAxis>
+            <yAxis>
+                <NumberAxis label="Parties gagnées"/>
+            </yAxis>
+        </BarChart>
+
+        <!-- Graphique en secteurs -->
+        <PieChart fx:id="pieChart" prefWidth="400" prefHeight="400"/>
+
+        <!-- Graphique de ligne -->
+        <LineChart fx:id="lineChart" prefWidth="400" prefHeight="400">
+            <xAxis>
+                <CategoryAxis label="Joueurs"/>
+            </xAxis>
+            <yAxis>
+                <NumberAxis label="Parties jouées"/>
+            </yAxis>
+        </LineChart>
+    </HBox>
+</VBox>
