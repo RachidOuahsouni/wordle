@@ -1,0 +1,79 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.button {
+    -fx-background-color: #374f6b; /* Couleur de fond */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-weight: bold;
+    -fx-border-radius: 5; /* Rayon des coins pour la bordure */
+    -fx-border-color: #2980b9; /* Couleur de la bordure */
+    -fx-border-width: 2px;
+    -fx-background-radius: 5; /* Rayon des coins */
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+.positioned-alert {
+  
+    -fx-alignment: TOP-RIGHT;
+    -fx-translate-x: -10px;
+    -fx-translate-y: 10px;
+}
+
+.custom-alert {
+    -fx-background-color: #374f6b;
+    -fx-border-color: #333333;
+}
+
+.custom-alert-header {
+    -fx-background-color: #374f6b;
+    -fx-text-fill: #333333;
+}
+
+.custom-alert-content {
+    -fx-background-color: #374f6b;
+    -fx-text-fill: #333333;
+}
+
+.custom-alert-button-bar {
+    -fx-background-color: #374f6b;
+}
+
+
+
+.button:hover {
+    -fx-background-color: #0d02db; /* Couleur de fond au survol */
+}
+
+
+.temps-label {
+    -fx-text-fill: white;
+}
+
+
+.root{
+	-fx-background-color: #6998ad;
+}
+
+
+.button.celluleButton {
+    -fx-background-radius: 5; /* Rayon des coins */
+    -fx-padding: 10 15; /* Espacement intérieur pour que le fond soit visible */
+    -fx-background-color: #03003d; /* Couleur de fond */
+    -fx-border-radius: 5; /* Rayon des coins pour la bordure */
+    -fx-border-color: #2980b9; /* Couleur de la bordure */
+    -fx-text-fill: #2c3e50; /* Couleur du texte dans les cellules */
+    -fx-font-size: 20px;
+    
+}
+
+
+.button.clavierButton {
+    -fx-background-color: #95a5a6; /* Couleur de fond des boutons du clavier */
+    -fx-text-fill: white; /* Couleur du texte dans les boutons du clavier */
+    -fx-font-size: 18px;
+}
+
+
+.button.clavierButton:hover {
+    -fx-background-color: #7f8c8d; /* Couleur de fond au survol des boutons du clavier */
+}
+

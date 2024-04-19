@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<StackPane stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ChoixJeuController">
+    <VBox alignment="CENTER" spacing="20.0">
+        <HBox alignment="CENTER" spacing="20.0">
+            <Button fx:id="jeu1Button" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Jeu 1" />
+            <Button fx:id="jeu2Button" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Jeu 2" />
+            <Button fx:id="jeu3Button" mnemonicParsing="false" prefHeight="150.0" prefWidth="150.0" text="Jeu 3" />
+        </HBox>
+        <Button fx:id="retourButton" mnemonicParsing="false" prefHeight="75.0" prefWidth="490.0" text="Retour" />
+    </VBox>
+</StackPane>
